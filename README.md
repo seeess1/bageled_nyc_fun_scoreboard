@@ -1,12 +1,17 @@
 # Overview
 
-Ever wanted to make your own tennis scoreboard? Never thought of it before but now you can't unthink it? Let us show you how! It's a super fun project that takes a little bit of coding (we'll provide the code to you although it definitely helps to have some knowledge of Python or a similar language), some fabrication (we'll tell you exactly what to do), and patience (can't help you there).
+Ever wanted to make your own tennis scoreboard? Never thought of it before but now you can't unthink it? Let us show you how! It's a super fun project that takes:
+- A little bit of **coding** (we'll provide the code to you although it definitely helps to have some knowledge of Python or a similar language)
+- Some **fabrication** (we'll tell you exactly what to do)
+- And **patience** (can't help you there)
 
 ## Where we're headed
 
 We're making this scoreboard:
 
-<img src="./assets/scoreboard.gif" alt="drawing" width="400"/>
+<div align="center">
+    <img src="./assets/scoreboard.gif" alt="drawing" width="400"/>
+</div>
 
 It's a fun way to keep score while you're playing a match or to just have around the house.
 
@@ -20,10 +25,10 @@ It's a fun way to keep score while you're playing a match or to just have around
 
 Here are the core components:
 
-- An LED panel driven by a simple little computer called a "microcontroller".
-- Code that we save on that little computer that can take your button presses and turn them into numbers that show up on the LED panel.
-- A frame you'll 3D print to encase the LED and provide a home for the buttons.
-- A power supply to keep the whole thing running.
+- An **LED panel** driven by a simple little computer called a "microcontroller".
+- Code that we save **on that little computer** that can take your button presses and turn them into numbers that show up on the LED panel.
+- **A frame** you'll 3D print to encase the LED and provide a home for the buttons.
+- A **power supply** to keep the whole thing running.
 
 ## What you'll need
 
@@ -39,7 +44,9 @@ You need a few different things here:
 
 Let's get into the electronics you'll need:
 
-![alt text](assets/led-components.png "LED components")
+<div align="center">
+  <img src="assets/led-components.png" alt="Components"/>
+</div>
 
 - Adafruit Matrix Portal Starter Kit (pictured above - [link](https://www.adafruit.com/product/4812)).
 - Adafruit LED Arcade Button 1x4 QT I2C Breakout ([link](https://www.adafruit.com/product/5296)).
@@ -55,12 +62,14 @@ Let's get into the electronics you'll need:
 
 ### Other items you'll need (for the 3D-printed frame)
 
-<img src="./assets/paint.png" alt="drawing" width="400"/>
+<div align="center">
+    <img src="./assets/paint.png" alt="drawing" width="400"/>
+</div>
 
 - Super glue.
 - Baking soda.
 - Paint. We recommend spray paint.
-    - We used Montana primer, spray paint, and varnish. For the paint, we used Montana Poison Light Spray paint (CL6310).
+    - We used Montana primer, spray paint, and varnish. For the paint, we used **Montana Poison Light** spray paint (CL6310).
 - 16 1/8" diameter bolts.
 
 --------
@@ -94,33 +103,44 @@ With your Matrix Portal M4 connected to your computer via the USB **data** cable
 
 ### Test it!
 
-![alt text](assets/testing.jpg "Testing")
+<div align="center">
+  <img src="assets/testing.jpg" alt="Testing"/>
+</div>
 
 That should do it! You've got your hardware setup, Python installed on the microcontroller, and custom code saved there. If the microcontroller is plugged into a power source (either your laptop or a wall outlet), you should see it running.
 
 ## Frame construction
 
-![alt text](assets/3d-design.png "3D design")
+<div align="center">
+  <img src="assets/3d-design.png" alt="3D design"/>
+</div>
 
-Your LED scoreboard is working and now you just need a way to prop the thing up and hold the buttons in place. Again, our method here is not the only way to go about this. We 3D printed our frame but you could do a very simple plywood mount. But we'll walk you through our method here.
+Your LED scoreboard is working and now you just need a way to prop the thing up and hold the buttons in place. Again, our method here is not the only way to go about this. We 3D printed our frame (design pictured above) but you could do a very simple plywood mount. But we'll walk you through our method here.
 
 ### Print 3D frame
 
-![alt text](assets/printer.jpg "Printer")
+<div align="center">
+  <img src="assets/printer.png" alt="Printer"/>
+</div>
 
-We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [./3d-printed-frame-files/](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some basic PLA printer feed. Note that our frame comes in 5 parts: 2 halves of the main frame along with 3 panels to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
+We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [./3d-printed-frame-files/](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some basic PLA printer feed. Note that our frame comes in 5 parts: **2 halves of the main frame** along with **3 panels** to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
 
 Finally, if you want to see the original 3D design, it's available [here](https://cad.onshape.com/documents/69ebf9ad50050bcc4d933ace/w/815e9d5b396a06dd19ee47ea/e/771d1e32a6c8bf09b2bf1eec?renderMode=0&uiState=68e6e3e470c44a081cd773cc).
 
-(Why in 5 parts? -> We did it this way so that we could print on a 3D printer with a maximum 7"x7"x7" print area. We used a Bambu Lab A1 mini although most 3D printers should work.)
+(Why in 5 parts? -> We did it this way so that we could print on a 3D printer with a maximum 7"x7"x7" print area. We used a Bambu Lab A1 mini - pictured above - although most 3D printers should work.)
 
 ### Assembly
 
 You've finished printing the pieces, so now you can assemble them. For now, we're just going to put the two main halves of the frame together.
 
-![alt text](assets/halves.jpg "halves")
+<div align="center">
+  <img src="assets/halves.jpg" alt="halves"/>
+</div>
 
-![alt text](assets/glued.jpg "Glued")
+<div align="center">
+  <img src="assets/glued.jpg" alt="Glued"/>
+</div>
+
 
 Having a couple of long bar clamps and a couple spring clamps is really handy here although you can probably find a way to improvise. The main thing is that you'll need to superglue the two halves together and hold them in place as they dry to help the bond take. We also recommend sprinkling a little bit of baking soda on the area where the halves are being pressed together as baking soda helps a bond form between the two pieces of plastic.
 
@@ -128,7 +148,9 @@ Having a couple of long bar clamps and a couple spring clamps is really handy he
 
 This is the fun part. We spray painted ours with Montana products:
 
-![alt text](assets/painting.jpg "painting")
+<div align="center">
+  <img src="assets/painting.jpg" alt="painting"/>
+</div>
 
 We put on one layer of primer, one layer of paint (with a little bit of touching up), and one layer of varnish. And presto!
 
@@ -138,19 +160,30 @@ You've got your LED panel working. And you have a painted frame for the LED. So 
 
 We recommend watching our Instagram video [here]() for a quick overview of what the final assembly process looks like. Here are the steps broken down:
 
-1) Fit the LED into the printed frame making sure that the side with img Matrix Portal M4 is aligned with the little window on the side of the frame.
-2) Attach the LED to the frame by screwing the 1/8" bolts through the tabs in each corner of the frame into the LED's receivers:
+1) Fit the LED into the printed frame making sure that the side of the LED where the Matrix Portal M4 is plugged in is aligned with the little window on the side of the frame.
+2) Attach the LED to the frame by screwing the 1/8" bolts through the tabs in each corner of the frame into the LED's screw holes:
 
-![alt text](assets/led-bolts.png "LED bolts")
+<div align="center">
+  <img src="assets/led-bolts.png" alt="LED bolts"/>
+</div>
 
-2) Connect the Matrix Portal M4 to your LED Arcade Button 1x4 QT I2C Breakout via the STEMMA QT / Qwiic JST SH 4-Pin Cable.
+2) Connect the Matrix Portal M4 to your LED Arcade Button 1x4 QT I2C Breakout via the STEMMA QT / Qwiic JST SH 4-Pin Cable:
+
+<div align="center">
+  <img src="assets/qwiic.png" alt="Qwiic"/>
+</div>
+
 3) Connect each button to a pair of Quick-Connect wires.  
 4) Slide the buttons through the button holders on the top of the frame.
-5) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output).You'll want to use switches 1 and 2.
+5) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output). You'll want to use switches 1 and 2.
 
-![alt text](assets/breakout-switches.png "Breakout")
+<div align="center">
+  <img src="assets/breakout-switches.png" alt="Breakout switches"/>
+</div>
 
-![alt text](assets/breakout-stemma.jpg "Breakout")
+<div align="center">
+  <img src="assets/breakout-stemma.jpg" alt="Breakout assembly"/>
+</div>
 
 6) Before moving on to the final step, plug the Matrix Portal M4 into a power source and do some testing to make sure things are looking right.
 6) Last thing, attach the back panels by screwing in the remaining bolts. And that's it!
