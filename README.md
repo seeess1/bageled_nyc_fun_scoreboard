@@ -97,9 +97,13 @@ Alright! Now your LED and the Matrix Portal M4 driving it have everything they n
 
 ### Load the code
 
-With your Matrix Portal M4 connected to your computer via the USB **data** cable you previously purchased, copy everything in [this folder](TBD) and paste it directly into the home directory of your Matrix Portal M4 folder, like this:
+With your Matrix Portal M4 connected to your computer via the USB **data** cable you previously purchased, copy everything in the [custom-code folder](./custom-code/) and paste it directly into the home directory of your Matrix Portal M4 folder, like this:
 
-# todo: screenshot of copying folder from one place to the next
+<div align="center">
+    <img src="./assets/copy-files.png" alt="drawing" width="400"/>
+</div>
+
+The Matrix Portal M4 is set up to read whatever code is in `code.py` and run it.
 
 ### Test it!
 
@@ -107,7 +111,7 @@ With your Matrix Portal M4 connected to your computer via the USB **data** cable
   <img src="assets/testing.jpg" alt="Testing"/>
 </div>
 
-That should do it! You've got your hardware setup, Python installed on the microcontroller, and custom code saved there. If the microcontroller is plugged into a power source (either your laptop or a wall outlet), you should see it running.
+That should do it! You've got your hardware setup, Python installed on the microcontroller, and custom code saved there. If the microcontroller is plugged into a power source (either your laptop or a wall outlet), you should see it running (text popping up on the LED).
 
 ## Frame construction
 
