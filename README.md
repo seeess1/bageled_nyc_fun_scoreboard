@@ -126,7 +126,8 @@ Your LED scoreboard is working and now you just need a way to prop the thing up 
 <div align="center">
   <img src="assets/printer.jpg" alt="Printer" width="300"/>
 </div>
-We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [3d-printed-frame-files](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some basic PLA printer feed. Note that our frame comes in 5 parts: **2 halves of the main frame** along with **3 panels** to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
+
+We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [3d-printed-frame-files](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some **basic PLA** printer feed. Note that our frame comes in 5 parts: **2 halves of the main frame** along with **3 panels** to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
 
 Finally, if you want to see the original 3D design, it's available [here](https://cad.onshape.com/documents/69ebf9ad50050bcc4d933ace/w/815e9d5b396a06dd19ee47ea/e/771d1e32a6c8bf09b2bf1eec?renderMode=0&uiState=68e6e3e470c44a081cd773cc).
 
@@ -137,11 +138,11 @@ Finally, if you want to see the original 3D design, it's available [here](https:
 You've finished printing the pieces, so now you can assemble them. For now, we're just going to put the two main halves of the frame together.
 
 <div align="center">
-  <img src="assets/halves.jpg" alt="halves"/>
+  <img src="assets/halves.jpg" alt="halves" width="300"/>
 </div>
 
 <div align="center">
-  <img src="assets/glued.jpg" alt="Glued"/>
+  <img src="assets/glued.jpg" alt="Glued" width="300"/>
 </div>
 
 
@@ -152,7 +153,7 @@ Having a couple of long bar clamps and a couple spring clamps is really handy he
 This is the fun part. We spray painted ours with Montana products:
 
 <div align="center">
-  <img src="assets/painting.jpg" alt="painting"/>
+  <img src="assets/painting.jpg" alt="painting" width="300"/>
 </div>
 
 We put on one layer of primer, one layer of paint (with a little bit of touching up), and one layer of varnish. And presto!
@@ -178,14 +179,14 @@ We recommend watching our Instagram video [here](TBD) for a quick overview of wh
 
 3) Connect each button to a pair of Quick-Connect wires.  
 4) Slide the buttons through the button holders on the top of the frame.
-5) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output). You'll want to use switches 1 and 2.
+5) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output). You'll want to use switches 1 and 2:
 
 <div align="center">
   <img src="assets/breakout-switches.png" alt="Breakout switches"/>
 </div>
 
 <div align="center">
-  <img src="assets/breakout-stemma.jpg" alt="Breakout assembly"/>
+  <img src="assets/breakout-stemma.jpg" alt="Breakout assembly" width="300"/>
 </div>
 
 6) Before moving on to the final step, plug the Matrix Portal M4 into a power source and do some testing to make sure things are looking right.
@@ -195,4 +196,4 @@ Congratulations! You made your own scoreboard from scratch!
 
 ## Having trouble? Or have feedback/suggestions?
 
-Email us at love@bageled.nyc or DM us on Instagram at @bagelednyc. We'd love to hear from you!
+Email us at love@bageled.nyc or DM us [on Instagram](https://www.instagram.com/bagelednyc/) at @bagelednyc. We'd love to hear from you!
