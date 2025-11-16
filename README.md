@@ -108,10 +108,10 @@ The Matrix Portal M4 is set up to read whatever code is in `code.py` and run it.
 ### Test it!
 
 <div align="center">
-  <img src="assets/testing.jpg" alt="Testing"/>
+  <img src="assets/testing.jpg" alt="Testing" width="300"/>
 </div>
 
-That should do it! You've got your hardware setup, Python installed on the microcontroller, and custom code saved there. If the microcontroller is plugged into a power source (either your laptop or a wall outlet), you should see it running (text popping up on the LED).
+That should do it! You've got your hardware setup, Python installed on the microcontroller, and custom code saved there. If the microcontroller is plugged into a power source (either your laptop or a wall outlet), you should see it running (i.e. text popping up on the LED).
 
 ## Frame construction
 
@@ -124,10 +124,9 @@ Your LED scoreboard is working and now you just need a way to prop the thing up 
 ### Print 3D frame
 
 <div align="center">
-  <img src="assets/printer.png" alt="Printer"/>
+  <img src="assets/printer.jpg" alt="Printer" width="300"/>
 </div>
-
-We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [./3d-printed-frame-files/](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some basic PLA printer feed. Note that our frame comes in 5 parts: **2 halves of the main frame** along with **3 panels** to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
+We've gone ahead and designed a 3D model for you. So all you have to do is download the files in [3d-printed-frame-files](./3d-printed-frame-files/) and find a 3D printer where you can print each one with some basic PLA printer feed. Note that our frame comes in 5 parts: **2 halves of the main frame** along with **3 panels** to enclose the back of the scoreboard. So you'll need to print the `back-panel.stl` file 3 times (since you need 3 panel pieces to cover the entire back of the scoreboard). 
 
 Finally, if you want to see the original 3D design, it's available [here](https://cad.onshape.com/documents/69ebf9ad50050bcc4d933ace/w/815e9d5b396a06dd19ee47ea/e/771d1e32a6c8bf09b2bf1eec?renderMode=0&uiState=68e6e3e470c44a081cd773cc).
 
@@ -162,7 +161,7 @@ We put on one layer of primer, one layer of paint (with a little bit of touching
 
 You've got your LED panel working. And you have a painted frame for the LED. So now all you have to do is put it together!
 
-We recommend watching our Instagram video [here]() for a quick overview of what the final assembly process looks like. Here are the steps broken down:
+We recommend watching our Instagram video [here](TBD) for a quick overview of what the final assembly process looks like. Here are the steps broken down:
 
 1) Fit the LED into the printed frame making sure that the side of the LED where the Matrix Portal M4 is plugged in is aligned with the little window on the side of the frame.
 2) Attach the LED to the frame by screwing the 1/8" bolts through the tabs in each corner of the frame into the LED's screw holes:
