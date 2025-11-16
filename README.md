@@ -116,7 +116,7 @@ That should do it! You've got your hardware setup, Python installed on the micro
 ## Frame construction
 
 <div align="center">
-  <img src="assets/3d-design.png" alt="3D design"/>
+  <img src="assets/3d-design.png" alt="3D design" width="400"/>
 </div>
 
 Your LED scoreboard is working and now you just need a way to prop the thing up and hold the buttons in place. Again, our method here is not the only way to go about this. We 3D printed our frame (design pictured above) but you could do a very simple plywood mount. But we'll walk you through our method here.
@@ -171,26 +171,26 @@ We recommend watching our Instagram video [here](TBD) for a quick overview of wh
   <img src="assets/led-bolts.png" alt="LED bolts"/>
 </div>
 
-2) Connect the Matrix Portal M4 to your LED Arcade Button 1x4 QT I2C Breakout via the STEMMA QT / Qwiic JST SH 4-Pin Cable:
+3) Connect the Matrix Portal M4 to your LED Arcade Button 1x4 QT I2C Breakout via the STEMMA QT / Qwiic JST SH 4-Pin Cable:
 
 <div align="center">
-  <img src="assets/qwiic.png" alt="Qwiic"/>
+  <img src="assets/qwiic.png" alt="Qwiic" width="300"/>
 </div>
 
-3) Connect each button to a pair of Quick-Connect wires.  
-4) Slide the buttons through the button holders on the top of the frame.
-5) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output). You'll want to use switches 1 and 2:
+4) Connect each button to a pair of Quick-Connect wires.  
+5) Slide the buttons through the button holders on the top of the frame.
+6) Now connect the other end of the Quick-Connect wires to the LED Arcade Button 1x4 QT I2C Breakout. You may have to play around with this step a little to make sure you connect the correct button to the correct switch (based on the color of the button and the LED output). You'll want to use switches 1 and 2:
 
 <div align="center">
-  <img src="assets/breakout-switches.png" alt="Breakout switches"/>
+  <img src="assets/breakout-switches.png" alt="Breakout switches" width="300"/>
 </div>
 
 <div align="center">
   <img src="assets/breakout-stemma.jpg" alt="Breakout assembly" width="300"/>
 </div>
 
-6) Before moving on to the final step, plug the Matrix Portal M4 into a power source and do some testing to make sure things are looking right.
-6) Last thing, attach the back panels by screwing in the remaining bolts. And that's it!
+7) Before moving on to the final step, plug the Matrix Portal M4 into a power source and do some testing to make sure things are looking right.
+8) Last thing, attach the back panels by screwing in the remaining bolts. And that's it!
 
 Congratulations! You made your own scoreboard from scratch!
 
