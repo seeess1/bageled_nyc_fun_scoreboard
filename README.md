@@ -116,7 +116,7 @@ That should do it! You've got your hardware setup, Python installed on the micro
 ## Frame construction
 
 <div align="center">
-  <img src="assets/3d-design.png" alt="3D design" width="400"/>
+  <img src="assets/3d-design.png" alt="3D design" width="600"/>
 </div>
 
 Your LED scoreboard is working and now you just need a way to prop the thing up and hold the buttons in place. Again, our method here is not the only way to go about this. We 3D printed our frame (design pictured above) but you could do a very simple plywood mount. But we'll walk you through our method here.
