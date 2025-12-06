@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="./assets/logo.png" alt="https://bageled.nyc/" width="150"/>
+</div>
+
 # Overview
 
 Ever wanted to make your own tennis scoreboard? Never thought of it before but now you can't unthink it? Let us show you how! It's a super fun project that takes:
